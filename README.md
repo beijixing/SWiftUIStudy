@@ -11,7 +11,7 @@ Swift页面忽略状态栏的高度 edgesIgnoringSafeArea(.top)
 
 垂直布局VStack，水平布局HStack
 
-List的使用
+List控件的使用
 
 自定义视图传参,不同页面之间传参 
 
