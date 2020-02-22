@@ -23,7 +23,7 @@ ForEach创建多个设备视图预览，previewDevice、previewDisplayName。
 
 @EnvironmentObject 环境变量，类似全年局变量，可以储存用户数据，能从一个视图传递到所有的子视图，子视图都可以读写变量的值，变量在一个页面改变后，当返回到其他页面时，当前页面会根据最新的值来刷新页面显示， @EnvironmentObject 修饰的变量 要遵循ObservableObject协议 
 
-
+绘制路径和形状，使用Path 类型提供的方法，可以绘制直线，圆弧，及矩形等形状，GeometryReader类型可以用来动态的设置绘制的形状和路径所在视图的大小，以便复用自定义控件。
 
 
 
