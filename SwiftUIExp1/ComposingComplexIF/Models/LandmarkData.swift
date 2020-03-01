@@ -12,7 +12,7 @@ import CoreLocation
 
 let landmarkData: [LandMark] = load("landmarkData.json")
 let hikeData: [Hike] = load("hikeData.json")
-
+let features:[LandMark] = landmarkData.filter{$0.isFeatured}
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
