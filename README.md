@@ -52,6 +52,12 @@ extension Animation{
     }
 }
 
+在SwiftUI中如何使用UI控件，如Button，ScrollView，TextField，Picker，DatePicker等
+
+最后是两个比较重要的协议 UIViewRepresentable和UIViewControllerRepresentable，通过遵循这两个协议，并实现其中的两个必须的方法，makeUIView ,updateUIView 可以将UIViewController与UIView及其子控件在SwiftUI环境中呈现，由swiftUI来管理UIview和 UIviewController的生命周期。
+
+实现一个自定义的PageView和PageControl，可以无限循环滚动，点击PageControl，切换当前显示的Page
+
 
 
 
